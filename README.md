@@ -12,3 +12,7 @@ The library `Spacy` parsed and segmented the file parrafos_ingredientes.txt into
 
 ### Graph representation
 Using the `networkx` library, the relationships between ingredients were represented as graphs. Various centrality measurements, such as closeness and betweenness, were applied to analyze these relationships. This analysis provided insights into the most central ingredients and their importance in Spanish cuisine recipes. Finally, the Louvain community detection algorithm classified the ingredients into communities based on their positions in the graph.
+
+
+## Conclusions
+The analysis revealed that the most frequently co-occurring ingredients in Spanish cuisine recipes are basic staples like garlic, onion, and oil. These essential ingredients often serve as the foundation for many dishes. Additionally, spices such as paprika and cumin frequently appear, highlighting their importance in flavoring Spanish recipes. This insight into ingredient relationships can help in understanding traditional cooking patterns and ingredient dependencies in Spanish cuisine.
